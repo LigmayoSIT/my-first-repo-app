@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { TrainerService } from './trainer-service';
+import { KantoRegion } from './kanto-region';
 
-describe('TrainerService', () => {
-  let component: TrainerService;
-  let fixture: ComponentFixture<TrainerService>;
+describe('KantoRegion', () => {
+  let component: KantoRegion;
+  let fixture: ComponentFixture<KantoRegion>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TrainerService],
+      imports: [KantoRegion],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(TrainerService);
+    fixture = TestBed.createComponent(KantoRegion);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

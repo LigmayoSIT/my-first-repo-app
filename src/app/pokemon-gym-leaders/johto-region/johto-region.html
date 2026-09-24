@@ -1,0 +1,17 @@
+<section class="leaders-card-section">
+    <div class="section-heading">
+        <h2>Johto</h2>
+        <span>Gold, Silver &amp; Crystal</span>
+    </div>
+    <div class="card-grid">
+        @for(item of gymleaders(); track item.name){
+            <div class="card">
+                <h3>{{item.name}}</h3>
+                <p class="location">{{item.location}}</p>
+                <p class="team">{{item.pokemonteam}}</p>
+                <p class="levels">{{item.pokemonlevels}}</p>
+                <p class="badge">{{item.badge}}</p>
+            </div>
+        }
+    </div>
+</section>

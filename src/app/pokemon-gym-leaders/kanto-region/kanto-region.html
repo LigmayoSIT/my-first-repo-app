@@ -1,0 +1,18 @@
+<section class="leaders-card-section">
+    <img class="region-banner" src="/kantomap.png" alt="Map of the Kanto Region">
+    <div class="section-heading">
+        <h2>Kanto</h2>
+        <span>Red, Blue, Yellow &amp; FireRed/LeafGreen</span>
+    </div>
+    <div class="card-grid">
+        @for(item of gymleaders(); track item.name){
+            <div class="card">
+                <h3>{{item.name}}</h3>
+                <p class="location">{{item.location}}</p>
+                <p class="team">{{item.pokemonteam}}</p>
+                <p class="levels">{{item.pokemonlevels}}</p>
+                <p class="badge">{{item.badge}}</p>
+            </div>
+        }
+    </div>
+</section>

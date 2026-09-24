@@ -7,22 +7,22 @@ export class TrainerService {
             name: 'Ash Ketchum',
             team: ['Pikachu', 'Charizard'],
             items: ['Light Ball', 'Charizardite Y']
-        }
+        },
         {
             name: 'Misty',
             team: ['Starmie', 'Psyduck', 'Gyarados'],
             items: ['Mystic Water', 'None', 'Gyaradosite']
-        }
+        },
         {
             name: 'Cynthia',
             team: ['Spiritomb', 'Roserade', 'Togekiss'],
-            item: ['Leftovers', 'Focus Sash', 'Sitrus Berry']
-        }
+            items: ['Leftovers', 'Focus Sash', 'Sitrus Berry']
+        },
         {
             name: 'Serena',
             team: ['Delphox', 'Pancham', 'Sylveon'],
-            item: ['None'. 'Sunglasses', 'None']
-        }
+            items: ['None', 'Sunglasses', 'None']
+        },
         {
             name: 'Marnie',
             team: ['Liepard', 'Toxicroak', 'Scrafty'],

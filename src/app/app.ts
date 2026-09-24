@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TrainerDisplay } from './trainer-display/trainer-display'
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, TrainerDisplay],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

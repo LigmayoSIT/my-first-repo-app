@@ -1,10 +1,10 @@
 import { Component, inject } from '@angular/core';
-import { TrainerService } from './trainer.service';
+import { TrainerService } from '../trainer-service';
 
 @Component({
   selector: 'app-trainer-display',
   standalone: true,
-  template
+  templateUrl: './trainer-display.html'
 })
 export class TrainerDisplay {
   trainerService = inject(TrainerService);

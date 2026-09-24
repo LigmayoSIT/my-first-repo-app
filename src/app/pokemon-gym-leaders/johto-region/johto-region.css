@@ -1,0 +1,88 @@
+.leaders-card-section {
+  padding: 1rem 1.5rem 3.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--johto);
+}
+
+.section-heading h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--johto-dark);
+}
+
+.section-heading span {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 1 240px;
+  max-width: 280px;
+  background: #fff;
+  border: 1px solid var(--hairline);
+  border-left: 5px solid var(--johto);
+  padding: 1.1rem 1.2rem;
+}
+
+.card .portrait {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--johto);
+  margin: 0 0 0.7rem;
+}
+
+.card h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.35rem;
+}
+
+.card .location {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin: 0 0 0.6rem;
+}
+
+.card .team {
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin: 0 0 0.4rem;
+}
+
+.card .levels {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  line-height: 1.4;
+  margin: 0 0 0.7rem;
+}
+
+.card .badge {
+  display: inline-block;
+  color: var(--johto-teal);
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--hairline);
+  width: 100%;
+}
