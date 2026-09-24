@@ -1,7 +1,9 @@
+/*Kanto Card CSS*/
 .leaders-card-section {
   padding: 2.5rem 1.5rem 3rem;
   max-width: 1100px;
   margin: 0 auto;
+  color: darkgreen;
 }
 
 .section-heading {
@@ -10,27 +12,20 @@
   gap: 0.75rem;
   margin-bottom: 1.75rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--kanto);
+  border-bottom: 2px solid;
+  color: orange;
 }
 
 .section-heading h2 {
   font-size: 1.6rem;
   font-weight: 600;
-  color: var(--kanto-dark);
+  color: green;
 }
 
 .section-heading span {
-  color: var(--ink-soft);
+  color: teal;
   font-size: 0.9rem;
   font-style: italic;
-}
-
-.region-banner {
-  display: block;
-  max-width: 320px;
-  width: 100%;
-  margin: 0 auto 1.5rem;
-  border: 1px solid var(--hairline);
 }
 
 .card-grid {
@@ -42,9 +37,9 @@
 .card {
   flex: 1 1 240px;
   max-width: 280px;
-  background: #fff;
-  border: 1px solid var(--hairline);
-  border-left: 5px solid var(--kanto);
+  background: beige;
+  border: 1px solid;
+  border-left: 5px solid;
   padding: 1.1rem 1.2rem;
 }
 
@@ -54,20 +49,20 @@
   height: 72px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid var(--kanto);
+  border: 2px solid;
   margin: 0 0 0.7rem;
 }
 
 .card h3 {
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--ink);
+  color: black;
   margin-bottom: 0.35rem;
 }
 
 .card .location {
   font-style: italic;
-  color: var(--ink-soft);
+  color: gray;
   font-size: 0.9rem;
   margin: 0 0 0.6rem;
 }
@@ -80,17 +75,17 @@
 
 .card .levels {
   font-size: 0.8rem;
-  color: var(--ink-soft);
+  color: gray;
   line-height: 1.4;
   margin: 0 0 0.7rem;
 }
 
 .card .badge {
   display: inline-block;
-  color: var(--kanto-dark);
+  color: teal;
   font-weight: 600;
   font-size: 0.85rem;
   padding-top: 0.5rem;
-  border-top: 1px solid var(--hairline);
+  border-top: 1px solid gray;
   width: 100%;
 }
