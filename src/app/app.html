@@ -1,3 +1,21 @@
 <app-trainer-display></app-trainer-display>
 <app-johto-region></app-johto-region>
 <app-kanto-region></app-kanto-region>
+
+<main>
+    <h1> Pokemon Input Output </h1>
+
+    <div class="lists-box">
+        {{ message() }}
+    </div>
+
+    <div class="card-grid">
+        @for (s of trainerNames; track s.name) {
+            <app-pokemon-input-output
+                [name]="s.name"
+                [status]="s.section"
+                (markConfirmed)="markConfirmed(s.name)">
+                </app-pokemon-input-output>
+        }
+    </div>
+</main>
